@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O‘zbekona Sayohat Rejalashtiruvchi</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">O‘zbekona Sayohat Rejalashtiruvchi</h1>
+    <div class="search-bar">
+      <select id="city-select" class="city-select">
+        <option value="">Shahar tanlang</option>
+        <option value="toshkent">Toshkent</option>
+        <option value="samarqand">Samarqand</option>
+        <option value="buxoro">Buxoro</option>
+      </select>
+      <button id="search-btn" class="btn">Ma’lumot olish</button>
+    </div>
+    <div id="city-info" class="city-info"></div>
+    <div class="itinerary">
+      <h2>Sizning sayohat rejangiz</h2>
+      <div class="input-wrapper">
+        <input type="text" id="itinerary-input" placeholder="Joy yoki faoliyat qo‘shing...">
+        <button id="add-itinerary-btn" class="btn add-btn">Qo‘shish</button>
+      </div>
+      <ul id="itinerary-list" class="itinerary-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
